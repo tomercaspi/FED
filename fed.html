@@ -5,19 +5,27 @@
   <title>Front End Developer Course</title>
   <link rel="stylesheet" href="fedCSS.css">
   <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 </head>
 <body>
 
+<div class="bs-docs-header" id="content" tabindex="-1">
+  <div class="container">
+    <h1 id="mainHeader">Fed Course Lessons</h1>
+    <p>Let's make the learning simple...</p>
+  </div>
+</div>
 
-<h1 id="mainHeader">Fed Course Lessons</h1>
+<div id="spacing"></div>
 
-<table border="2">
+<div class="maintable">
+<table class="table table-bordered">
   <thead>
     <tr>
-      <th>Lesson</th>
-      <th>Name</th>
-      <th>Desciption</th>
-      <th>Topics related to the lesson</th>
+      <th class="col-sm-1">Lesson</th>
+      <th class="col-sm-1">Name</th>
+      <th class="col-sm-4">Desciption</th>
+      <th class="col-sm-5">Topics related to the lesson</th>
     </tr>
   </thead>
   <tbody>
@@ -34,24 +42,26 @@
       <td>Tools</td>
       <td>Web protocols, Git, GitHub</td>
       <td>
-        <div>
+        <ul class="liPosition">
+        <li>
           <a href="http://www.restapitutorial.com/lessons/httpmethods.html" target="_blank" title="Using HTTP Methods for RESTful Services">HTTP Methods</a>
-        </div>
-        <div>
+        </li>
+        <li>
           <a href="http://www.restapitutorial.com/httpstatuscodes.html" target="_blank" title="Http Status codes">HTTP Status Codes</a>
-        </div>
-        <div>
+        </li>
+        <li>
           <a href="https://git-scm.com/downloads" target="_blank">Git Download</a>
-        </div>
-        <div>
+        </li>
+        <li>
           <a href="https://github.com" target="_blank">GitHub</a>
-        </div>
-        <div>
+        </li>
+        <li>
           <a href="https://rawgit.com/" target="_blank" title="See how your html file looks on a real web server">Git Raw</a>
-        </div>
-        <div>
+        </li>
+        <li>
           <a href="https://try.github.io/levels/1/challenges/1" target="_blank" title="Click to learn how git workflow works">Try Git</a>
-        </div>
+        </li>
+        </ul>
       </td>
     </tr>
     <tr>
@@ -59,21 +69,27 @@
       <td>HTML</td>
       <td>Introduction to Html, Syntax, Basic Tags</td>
       <td>
-        <div>
+        <ul class="liPosition">
+        <li>
           <a href="https://drive.google.com/folderview?id=0BxKyaqbd6EXCZTJlMFU4S21JMUk&usp=sharing_eid&ts=56fd2b52&tid=0B0FhWzfWnj8bbUpwVUtQVmRBcVU" target="_blank">Lesson references</a>
-        </div>
-        <div>
+        </li>
+        <li>
           <a href="https://www.sublimetext.com/3" target="_blank" title="Sublime text 3 download">Sublime text 3 Editor</a>
-        </div>
-        <div>
+        </li>
+        <li>
           <a href="http://motherfuckingwebsite.com/" target="_blank" title="Html simple page example with no css">Simple html example</a>
-        </div>
+        </li>
+        </ul>
       </td>
     </tr>
   </tbody>
 </table>
+</div>
+<!-- jQuery link -->
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 
-
+<!-- <bootstrap javaScript link -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
 </body>
 </html>
