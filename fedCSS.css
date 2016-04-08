@@ -1,6 +1,7 @@
 body {
   font-size: 16px;
   background-color: #9FCEC6;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/confectionary.png);
 }
 
 h1 {
@@ -53,7 +54,7 @@ a {
 }
 
 .maintable {
-  max-width: 60%;
+  max-width: 55%;
   margin-left: 30px;
   font-size: 16px;
   /*background-color: #DBD9D3;*/
