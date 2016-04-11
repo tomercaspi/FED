@@ -8,7 +8,7 @@ h1 {
   font-size: 5.0em;
   color: #CF3D23;
   font-family: 'Playfair Display';
-  text-decoration: underline wavy red;
+  text-decoration: underline solid #CF3D23;
   text-shadow: 1px 1px 2px black;
 }
 
@@ -54,8 +54,8 @@ a {
 }
 
 .maintable {
-  max-width: 55%;
-  margin-left: 30px;
+  max-width: 60%;
+  margin: 0 auto;
   font-size: 16px;
   /*background-color: #DBD9D3;*/
 }
@@ -73,6 +73,9 @@ a {
   font-size: 5.0em;
 }
 
+/*tr {
+  border: 2px solid black;
+}*/
 
 td:nth-of-type(4){
   text-transform: uppercase;
@@ -84,8 +87,18 @@ td:first-child {
   font-weight: bold;
 }
 
+thead tr {
+  background-color: rgb(207, 185, 203);
+}
+
+tbody tr:nth-child(even){
+  background-color: #E2DBE8;
+  /*border: 2px solid black;*/
+}
+
 th {
   font-size: 1.5em;
   color: purple;
   font-family: 'Playfair Display';
+  /*border: 2px solid black;*/
 }
