@@ -1,3 +1,4 @@
 # FED
-FED Topics
-Learning how to use git.
+
+[Front End Developer lessons topics]: (https://rawgit.com/tomercaspi/FED/dev/fed.html)
+
