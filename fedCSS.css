@@ -40,8 +40,12 @@ h1 {
     background-repeat: repeat-x;
 }
 
-#spacing {
-  margin: 50px auto;
+#progress-bar {
+  margin: 35px auto;
+  text-align: center;
+  font-family: 'Playfair Display';
+  color: #683667;
+  text-decoration-style: double;
 }
 
 .container p {
@@ -73,14 +77,6 @@ a {
   /*text-align: center;*/
   font-size: 5.0em;
 }
-
-/*tr {
-  border: 2px solid black;
-}*/
-
-/*td:nth-of-type(4){
-  text-transform: uppercase;
-}*/
 
 td:first-child {
   padding-left: 5px;
