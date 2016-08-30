@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<iframe src="" width="100%" height="400"
+        frameborder="0" scrolling="no"></iframe>
+
+<ul>
+    <li><a href="http://netcraft.co.il" class="link">Netcraft.co.il</a></li>
+    <li><a href="http://www.netcraft.co.il/projects.html" class="link">Netcraft Projects</a></li>
+    <li><a href="http://www.netcraft.co.il/blog/" class="link">Netcraft Blog</a></li>
+</ul>
+
+<script>
+    var links = document.querySelectorAll("a"); //return list
+    console.log(links);
+    var array = Array.prototype.slice.call(links);
+    console.log(array);
+    array.forEach(function (item) {
+//    links[i].onclick = function(){}
+
+        item.addEventListener("click", function (e) {
+            var event = e || window.event;
+
+            // update iframe src (Insert the href into the src parameter)
+            document.querySelector('iframe').src = item.href;
+
+            // prevent opening a new page
+            event.preventDefault();
+        }, false);
+    })
+</script>
+<!--<iframe src="http://netcraft.co.il/" name="Netcraft" width="600px" frameborder="0" scrolling="no"></iframe>-->
+</body>
+</html>
