@@ -3,6 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="main.css">
+    <style>
+        .borderstyle{
+            border-color: greenyellow;
+            border-width: 3px;
+        }
+        .error {
+            border-color: red;
+        }
+    </style>
     <title>Title</title>
 </head>
 <body>
@@ -23,17 +32,19 @@
     <br>
     <br>
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+
     <div class="container">
         <div class="transformed">
             <div class="child"></div>
         </div>
     </div>
+    <br>
+    <br>
+<fieldset>
+    <label for="myInput">My text: </label>
+    <input id="myInput" type="text" class="borderstyle">
+</fieldset>
 
-
+    <script src="events.js"></script>
 </body>
 </html>

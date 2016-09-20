@@ -7,3 +7,4 @@ list.forEach(function(element, index, array){
         e.preventDefault();
     })
 })
+
