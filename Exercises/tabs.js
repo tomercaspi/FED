@@ -1,7 +1,9 @@
 
 
 function asTabs(node) {
-    node.addEventListener('click', displayDiv);
+    //node.addEventListener('click', displayDiv);
+    node.addEventListener('mouseup', displayDiv);
+    node.addEventListener('mousedown', displayDiv);
 
     var childTabs = node.querySelectorAll("[data-tabname]");
 
