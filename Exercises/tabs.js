@@ -14,7 +14,7 @@ function asTabs(node) {
         btn.innerText = childElement.innerText;
         btn.setAttribute("id",childElement.getAttribute("data-tabname"));
 
-        node.appendChild(btn);
+        node.insertBefore(btn, childTabs[0]);
     }
 }
 
